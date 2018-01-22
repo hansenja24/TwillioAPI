@@ -1,0 +1,10 @@
+/Users/Guest/Projects/Texter/Texter/bin/Debug/netcoreapp1.1/Texter.deps.json
+/Users/Guest/Projects/Texter/Texter/bin/Debug/netcoreapp1.1/Texter.runtimeconfig.json
+/Users/Guest/Projects/Texter/Texter/bin/Debug/netcoreapp1.1/Texter.runtimeconfig.dev.json
+/Users/Guest/Projects/Texter/Texter/bin/Debug/netcoreapp1.1/Texter.dll
+/Users/Guest/Projects/Texter/Texter/bin/Debug/netcoreapp1.1/Texter.pdb
+/Users/Guest/Projects/Texter/Texter/obj/Debug/netcoreapp1.1/Texter.csprojResolveAssemblyReference.cache
+/Users/Guest/Projects/Texter/Texter/obj/Debug/netcoreapp1.1/Texter.csproj.CoreCompileInputs.cache
+/Users/Guest/Projects/Texter/Texter/obj/Debug/netcoreapp1.1/Texter.AssemblyInfo.cs
+/Users/Guest/Projects/Texter/Texter/obj/Debug/netcoreapp1.1/Texter.dll
+/Users/Guest/Projects/Texter/Texter/obj/Debug/netcoreapp1.1/Texter.pdb
