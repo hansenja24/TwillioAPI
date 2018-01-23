@@ -1,0 +1,15 @@
+﻿@model Texter.Models.Contact
+
+<h2>Create a new contact</h2>
+<hr />
+@using(Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Name)
+    @Html.TextBoxFor(model => model.Name)
+    @Html.LabelFor(model => model.Number)
+    @Html.TextBoxFor(model => model.Number)
+
+    <input type = "submit" value = "Create" />
+}
+
+@Html.ActionLink("Back home", "Index")

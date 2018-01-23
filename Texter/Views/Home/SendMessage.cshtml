@@ -5,7 +5,7 @@
 @using (Html.BeginForm())
 {
     @Html.LabelFor(model => model.To)
-    @Html.TextBoxFor(model => model.To)
+    @Html.DropDownList("To")
     @Html.LabelFor(model => model.From)
     @Html.TextBoxFor(model => model.From)
     @Html.LabelFor(model => model.Body)

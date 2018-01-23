@@ -22,6 +22,11 @@ namespace Texter.Models
             this.Body = body;
         }
 
+        public Message()
+        {
+            
+        }
+
 
         public static List<Message> GetMessages()
         {
