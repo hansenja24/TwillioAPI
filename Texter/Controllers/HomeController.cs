@@ -1,8 +1,11 @@
 ﻿using System.Linq;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Texter.Models;
+using Texter.ViewModels;
 
 namespace Texter.Controllers
 {
@@ -41,9 +44,16 @@ namespace Texter.Controllers
         }
 
         [HttpPost]
-        public IActionResult SendMultiMessages(Message newMessage)
+        public IActionResult SendMultiMessages(GroupMessagesModel newMessages)
         {
-            newMessage.Send();
+            if (newMessages.Contacts.Count > 0)
+            {
+                foreach (var contact in newMessages.Contacts)
+                {
+                    newMessages.Message.To = contact;
+                    newMessages.Message.Send();
+                }
+            }
             return RedirectToAction("Index");
         }
 

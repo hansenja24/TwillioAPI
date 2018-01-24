@@ -1,4 +1,4 @@
-﻿@model Texter.Models.Message
+﻿@model Texter.ViewModels.GroupMessagesModel
 
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10,7 +10,7 @@
             <hr />
             @using (Html.BeginForm())
             {   
-		        @Html.LabelFor(model => model.To)
+		        @Html.LabelFor(model => model.Message.To)
 		        @foreach(var item in @ViewBag.To)
         		{
 		            
@@ -18,10 +18,10 @@
         		}
 		<br>
   
-                @Html.LabelFor(model => model.From)
-                @Html.TextBoxFor(model => model.From)
-                @Html.LabelFor(model => model.Body)
-                @Html.TextBoxFor(model => model.Body)
+                @Html.LabelFor(model => model.Message.From)
+                @Html.TextBoxFor(model => model.Message.From)
+                @Html.LabelFor(model => model.Message.Body)
+                @Html.TextBoxFor(model => model.Message.Body)
                 <input type="submit" value="Send!" />
             }
 
