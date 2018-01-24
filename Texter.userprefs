@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{2D4E0568-CF2E-4C85-838A-37346D461073}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Texter/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Texter/Views/Home/SendMultiMessages.cshtml">
     <Files>
-      <File FileName="Texter/Models/Message.cs" Line="7" Column="27" />
-      <File FileName="Texter/Controllers/HomeController.cs" Line="48" Column="2" />
+      <File FileName="Texter/Models/Message.cs" Line="25" Column="6" />
+      <File FileName="Texter/Controllers/HomeController.cs" Line="32" Column="10" />
       <File FileName="Texter/Views/Home/Index.cshtml" Line="7" Column="44" />
       <File FileName="Texter/Views/Home/GetMessages.cshtml" Line="1" Column="1" />
       <File FileName="Texter/Views/Home/SendMessage.cshtml" Line="1" Column="1" />
       <File FileName="Texter/Models/EnvironmentVariables.cs" Line="1" Column="1" />
       <File FileName="Texter/.gitignore" Line="1" Column="1" />
-      <File FileName="Texter/Startup.cs" Line="44" Column="33" />
-      <File FileName="Texter/Program.cs" Line="24" Column="2" />
-      <File FileName="Texter/Models/Contact.cs" Line="4" Column="32" />
-      <File FileName="Texter/Views/Home/NewContact.cshtml" Line="12" Column="44" />
-      <File FileName="Texter/Models/TexterDbContext.cs" Line="21" Column="10" />
+      <File FileName="Texter/Startup.cs" Line="49" Column="1" />
+      <File FileName="Texter/Program.cs" Line="21" Column="1" />
+      <File FileName="Texter/Models/Contact.cs" Line="24" Column="29" />
+      <File FileName="Texter/Views/Home/NewContact.cshtml" Line="12" Column="7" />
+      <File FileName="Texter/Models/TexterDbContext.cs" Line="12" Column="33" />
       <File FileName="Texter/Texter.csproj" Line="1" Column="1" />
-      <File FileName="Texter/appsettings.json" Line="1" Column="1" />
+      <File FileName="Texter/appsettings.json" Line="3" Column="69" />
+      <File FileName="Texter/Views/Home/SendMultiMessages.cshtml" Line="11" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

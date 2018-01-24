@@ -34,6 +34,19 @@ namespace Texter.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult SendMultiMessages()
+        {
+            ViewBag.To = db.Contacts;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult SendMultiMessages(Message newMessage)
+        {
+            newMessage.Send();
+            return RedirectToAction("Index");
+        }
+
         public IActionResult NewContact()
         {
             return View();

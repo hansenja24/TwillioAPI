@@ -6,12 +6,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   </head>
   <body>
-            <h2>Send a new message</h2>
+            <h2>Send multi messages</h2>
             <hr />
             @using (Html.BeginForm())
-            {
-                @Html.LabelFor(model => model.To)
-                @Html.DropDownList("To")
+            {   
+		        @Html.LabelFor(model => model.To)
+		        @foreach(var item in @ViewBag.To)
+        		{
+		            
+        		    <input name="To" type="checkbox" value= "item.Number">@item.Name
+        		}
+		<br>
+  
                 @Html.LabelFor(model => model.From)
                 @Html.TextBoxFor(model => model.From)
                 @Html.LabelFor(model => model.Body)
@@ -19,8 +25,8 @@
                 <input type="submit" value="Send!" />
             }
 
-		<br>
-		@Html.ActionLink("Back home", "Index")
+        <br>
+        @Html.ActionLink("Back home", "Index")
   </body>
 </html>
 
